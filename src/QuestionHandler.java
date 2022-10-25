@@ -56,8 +56,9 @@ public class QuestionHandler {
                 System.out.println(fibonacci.getSeries());
                 break;
             case 4:
+                Scanner scanner= new Scanner(System.in);
                 System.out.print("Enter a string to check whether Palindrome or Not:");
-                String palindromeString = sc.nextLine();
+                String palindromeString = scanner.nextLine();
                 PalindromeString palingString = new PalindromeString(palindromeString);
                 palingString.printPalindromeOrNot();
                 break;
